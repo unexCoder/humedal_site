@@ -2,18 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  margin: 0;
+  width: 60%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h6 {
+  margin-top: 1em;
 }
 
-.App-header {
+.container-light {
+  background-color: #f0d107;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.container-dark {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,18 +30,93 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f0d107;
 }
 
-.App-link {
-  color: #61dafb;
+.text-holder {
+  margin: 0 4em;
+  text-align: left;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container-logo {
+  margin: 2em;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-logo img {
+  width: 10em;
+  height: 100%;
+}
+
+.logo {
+  filter: invert(100%);
+}
+
+.container-button {
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  z-index: 1;
+  bottom: 1em;
+  right: 1em;
+}
+
+.button {
+  align-items: flex-end;
+  margin: 0;
+  padding: 0.25em;
+  font-weight: 800;
+  background-color: transparent;
+  border: none;
+  color:#000;
+  /* color:#c70a4f; */
+  font-size:1em;
+}
+
+button:focus{color:#fff;}
+button:hover{cursor:pointer;}
+
+.main-logo {
+  width: 80vw;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  /* For mobile phones: */
+  body {
+    overflow: scroll;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h1 {
+    font-weight: 900;
+  }
+  
+  h4 {
+    margin: 0;
+    width: 90%;
+  }
+  
+  .text-holder {
+    margin: 0 2em;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .container-logo img {
+    width: 9em;
+    height: 100%;
+  }
+
+  .main-logo {
+    width: 90vw;
+  }
+
+  .container-button {
+    bottom: 0.35em;
+    right: 0.5em;
   }
 }
