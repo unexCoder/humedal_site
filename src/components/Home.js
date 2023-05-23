@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
-import humedal from '../logos/humedal.png'
+import isocomb from '../logos/isotipo combinado crop.png'
 
 const Home = () => {
 
@@ -11,10 +11,11 @@ const Home = () => {
       <div className="App">
         <div className="container-dark">
           <Link to={'about'}>
-            <img src={humedal} alt="humedal" className="main-logo" style={{filter:'brightness(1) hue-rotate(2rad)'}}/>
+            <img src={isocomb} alt="humedal" className="main-logo" style={{filter:'brightness(1)'}}/>
           </Link>
-          <h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4>
+          {/* <h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4> */}
         </div>
+        
         <div className="container-light">
           <h1><Link to='about'>FESTIVAL HUMEDAL 2023</Link></h1>
           <h4>28___30 SEP | ROSARIO</h4>

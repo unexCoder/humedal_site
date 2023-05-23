@@ -84,6 +84,10 @@ button:hover{cursor:pointer;}
   width: 80vw;
 }
 
+.not-found-link {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
   
   /* For mobile phones: */

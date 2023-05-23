@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
-import logo from '../logos/elda.png'
+import elda from '../logos/elda.png'
 import sntf from '../logos/fomento.png'
 import caja from '../logos/caja.png'
 import humedal from '../logos/humedal.png'
@@ -32,31 +32,18 @@ export const About = () => {
         <div className="container-light">
           <div className="container-logo">
             <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
-            <img src={biblio} alt="biblioteca argentina" style={{width:'6em'}}/>            
+            <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
             <img src={free} alt="all free ciclo" />
-            <img src={consejo} alt="consejo" style={{filter:'invert(100%)'}}/>
-            <img src={sntf} alt="santa fe cultura" style={{filter:'brightness(0)'}}/>
-            <img src={caja} alt="caja negra" />
-            <img src={fumi} alt="facultad de humanidades" />
-            <img src={logo} alt="america" style={{width:'6em',padding:'0 1em'}} />
+            <img src={consejo} alt="consejo" style={{width:'6em',filter:'invert(100%)'}}/>
+            <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/>
+            <img src={caja} alt="caja negra" style={{width:'7em'}}/>
+            <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/>
+            <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
             <img src={musica} alt="musica" />
             <img src={qubil} alt="el qubil" />
-            <img src={flecha} alt="flechabus" />
+            <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
             <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
             <img src={ispm} alt="carlos guastavino" style={{width:'6em'}}/>
-            <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
-            <img src={biblio} alt="biblioteca argentina" style={{width:'6em'}}/>            
-            <img src={free} alt="all free ciclo" />
-            <img src={consejo} alt="consejo" style={{filter:'invert(100%)'}}/>
-            <img src={sntf} alt="santa fe cultura" style={{filter:'brightness(0)'}}/>
-            <img src={caja} alt="caja negra" />
-            <img src={fumi} alt="facultad de humanidades" />
-            <img src={logo} alt="america" style={{width:'6em',padding:'0 1em'}} />
-            <img src={musica} alt="musica" />
-            <img src={qubil} alt="el qubil" />
-            <img src={flecha} alt="flechabus" />
-            <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
-            <img src={ispm} alt="carlos guastavino" style={{width:'6em'}} />
           </div>
         </div>
         <div className="container-button">
