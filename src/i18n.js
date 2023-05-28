@@ -17,7 +17,7 @@ i18next
             },
             spa: {
                 translation: {
-                    about:'El Festival profundiza su foco en el continente latinoamericano, potenciando así el concepto de unidad de lugar. Buscando así visualizar manifestaciones de artistas relevantes y emergentes que se encuentren desempeñando sus actividades en la región. Por ello contamos principalmente con la participación de exponentes de distintos países de la región.',
+                    about:'El Festival hace foco en el continente latinoamericano, potenciando así el concepto de unidad de lugar. Buscamos visualizar manifestaciones de artistas relevantes y emergentes que se encuentren desempeñando sus actividades en la región. Por ello contamos principalmente con la participación de exponentes de distintos países de la región.',
                     concerts:'conciertos',
                     workshops:'talleres',
                     lectures:'conferencias',

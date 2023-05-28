@@ -93,7 +93,8 @@ button:hover{cursor:pointer;}
 }
 
 .carousel-caption h2 {
-  background-color:red;
+  background-color:#d10f10;
+  color: #000;
   font-size:3em;
   display:flex;
   padding:0 0.25em 0;
@@ -155,9 +156,9 @@ button:hover{cursor:pointer;}
     right: 0.5em;
   }
 
-  /* .carousel-caption h2 {
-    font-size:2em;
-  } */
+  .carousel-caption h2 {
+    font-size:2.75em;
+  }
 
   /* .caption-right {
       bottom: 1%;
