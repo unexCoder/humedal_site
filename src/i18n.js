@@ -9,11 +9,19 @@ i18next
             en: {
                 translation: {
                     about:'Humedal deepens its focus on the Latin American continent, thus enhancing locality unit concept. Seeking thus to visualize manifestations of relevant and emerging artists who are carrying out their activities in the region. For this reason, we will mainly have the participation of exponents from different countries in our region.',
+                    concerts:'concerts',
+                    workshops:'workshops',
+                    lectures:'lectures',
+                    sonicart:'sound art'
                 }
             },
             spa: {
                 translation: {
                     about:'El Festival profundiza su foco en el continente latinoamericano, potenciando así el concepto de unidad de lugar. Buscando así visualizar manifestaciones de artistas relevantes y emergentes que se encuentren desempeñando sus actividades en la región. Por ello contamos principalmente con la participación de exponentes de distintos países de la región.',
+                    concerts:'conciertos',
+                    workshops:'talleres',
+                    lectures:'conferencias',
+                    sonicart:'arte sonoro'
                 }
             },
         }

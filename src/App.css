@@ -39,6 +39,10 @@ h6 {
   font-weight: 500;
 }
 
+.text-holder h4 {
+  padding: 1em 0;
+}
+
 .container-logo {
   margin: 2em;
   display: flex;
@@ -88,6 +92,29 @@ button:hover{cursor:pointer;}
   text-decoration: underline;
 }
 
+.carousel-caption h2 {
+  background-color:red;
+  font-size:3em;
+  display:flex;
+  padding:0 0.25em 0;
+}
+
+.caption-right {
+   right: 1%;
+   bottom: 15%;
+}
+
+.social {
+  display: flex;
+  font-size: 1.5em;
+  padding: 2vh 2vw;
+}
+
+.socialLink {
+  padding: 2vh 0.5vw;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 768px) {
   
   /* For mobile phones: */
@@ -123,4 +150,20 @@ button:hover{cursor:pointer;}
     bottom: 0.35em;
     right: 0.5em;
   }
+
+  .carousel-caption h2 {
+    /* font-size:2em; */
+  }
+
+  .caption-right {
+      /* bottom: 1%; */
+  }
+
+  .socialLink {
+    padding: 1vh 2vw;
+  }
+
+  .carousel  .carousel-inner  .carousel-item  img {    
+    transform: translate(-200px,0);  }
+
 }

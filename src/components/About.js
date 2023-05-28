@@ -14,6 +14,7 @@ import ispm from '../logos/ispm.png'
 import flecha from '../logos/flecha.png'
 import rosa from '../logos/rosario.png'
 import consejo from '../logos/consejo.png'
+import { FaBandcamp, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export const About = () => {
 
@@ -28,6 +29,14 @@ export const About = () => {
                 <p>Con sede en la ciudad de Rosario, Argentina, Humedal: Festival Internacional de Improvisación Libre y Artes Sonoras es un un encuentro dedicado a difundir las experiencias artísticas vinculadas al sonido como materia prima.</p>    
                 <p>Dentro de la programación de las diferentes actividades – conciertos, instalaciones, muestras, talleres, seminarios y mesas de debate – fomentamos el cruce entre artistas locales, artistas provenientes de diferentes ciudades del país y artistas internacionales.</p>
             </div>
+            
+            <div className='social'>
+              <a href="https://festivalhumedal.bandcamp.com/" target="_blank" className='socialLink' rel="noreferrer"><FaBandcamp /></a>
+              <a href="https://www.youtube.com/channel/UCZxI_xW8qbjIC2MDY40kfQw" target="_blank" className='socialLink' rel="noreferrer"><FaYoutube /></a>
+              <a href="https://www.instagram.com/festivalhumedal/" target="_blank" className='socialLink' rel="noreferrer">< FaInstagram /></a>
+              <a href="https://www.facebook.com/festivalhumedal/" target="_blank" className='socialLink' rel="noreferrer"><FaFacebook /></a>
+            </div>
+            
         </div>
         <div className="container-light">
           <div className="container-logo">
@@ -46,6 +55,7 @@ export const About = () => {
             <img src={ispm} alt="carlos guastavino" style={{width:'6em'}}/>
           </div>
         </div>
+        
         <div className="container-button">
           {Object.keys(lngs).map((lng) => (
             <button className='button' tipe='submit' key={lng} onClick={ () => i18n.changeLanguage(lng)} >{lngs[lng].NativeName}</button>
