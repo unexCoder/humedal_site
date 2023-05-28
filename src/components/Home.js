@@ -21,7 +21,7 @@ const Home = () => {
           <Carousel indicators={false} controls={false} fade={true} interval={2000}>
             {Object.keys(gallery).map((pic) => (
                 <Carousel.Item key={ gallery[pic].key }>
-                  <img
+                  <img 
                         src= { gallery[pic].src }
                         alt= { gallery[pic].caption } />
                   <Carousel.Caption className='caption-right' >

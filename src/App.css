@@ -115,6 +115,10 @@ button:hover{cursor:pointer;}
   text-decoration: none;
 }
 
+.carousel  .carousel-inner  .carousel-item  img {    
+  width: 100vw;
+}
+
 @media only screen and (max-width: 768px) {
   
   /* For mobile phones: */
@@ -151,19 +155,21 @@ button:hover{cursor:pointer;}
     right: 0.5em;
   }
 
-  .carousel-caption h2 {
-    /* font-size:2em; */
-  }
+  /* .carousel-caption h2 {
+    font-size:2em;
+  } */
 
-  .caption-right {
-      /* bottom: 1%; */
-  }
+  /* .caption-right {
+      bottom: 1%;
+  } */
 
   .socialLink {
     padding: 1vh 2vw;
   }
 
   .carousel  .carousel-inner  .carousel-item  img {    
-    transform: translate(-200px,0);  }
+    transform: translate(-200px,0); 
+    width: 200vw;
+  }
 
 }
