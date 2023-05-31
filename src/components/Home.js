@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
       <div className="App">
-        <div className="container-dark">
+        <div className="container-dark" id="main-logo">
           <Link to={'about'}>
             <img src={isocomb} alt="humedal" className="main-logo" style={{filter:'brightness(1)'}}/>
           </Link>

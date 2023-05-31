@@ -24,10 +24,10 @@ export const About = () => {
     <div className="App">
         <div className="container-dark">
             <div className="text-holder">
-            <Link to='/'><h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4></Link>
-                <p>{t('about')}</p> 
-                <p>Con sede en la ciudad de Rosario, Argentina, Humedal: Festival Internacional de Improvisación Libre y Artes Sonoras es un un encuentro dedicado a difundir las experiencias artísticas vinculadas al sonido como materia prima.</p>    
-                <p>Dentro de la programación de las diferentes actividades – conciertos, instalaciones, muestras, talleres, seminarios y mesas de debate – fomentamos el cruce entre artistas locales, artistas provenientes de diferentes ciudades del país y artistas internacionales.</p>
+            <Link to='/'><h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4></Link>                
+                <p>{t('about_1')}</p> 
+                <p>{t('about_2')}</p> 
+                <p>{t('about_0')}</p> 
                 {/* <p>Festival Humedal 2019</p>
                 <p>Festival Humedal 2021</p> */}
             </div>
