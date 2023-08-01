@@ -10,7 +10,7 @@ i18next
                 translation: {
                     about_0:'Humedal deepens its focus on the Latin American continent, thus enhancing locality unit concept. Seeking thus to visualize manifestations of relevant and emerging artists who are carrying out their activities in the region. For this reason, we will mainly have the participation of exponents from different countries in our region.',
                     about_1:'Based in the city of Rosario, Argentina, Humedal: International Festival of Free Improvisation and Sound Arts is a gathering dedicated to promoting artistic experiences linked to sound as raw material.',
-                    about_2:'As part of the diverse program lineup, including concerts, installations, exhibitions, workshops, seminars, and panel discussions, we actively encourage the collaboration and exchange between local artists, artists from various cities within the country, and artists from around the world.',
+                    about_2:'As part of the diverse program lineup, including concerts, installations, exhibitions, workshops, seminars, and panel discussions, we actively encourage the collaboration and exchange between local artists, and artists from various cities within the country, and the rest of the world.',
                     concerts:'concerts',
                     workshops:'workshops',
                     lectures:'lectures',

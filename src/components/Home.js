@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
-import isocomb from '../logos/isotipo combinado crop.png'
+// import isocomb from '../logos/isotipo combinado crop.png'
+import isocomb from '../logos/BACK_1.png'
 import { Carousel } from 'react-bootstrap';
 import gallery from '../data/media';
 
@@ -11,9 +12,9 @@ const Home = () => {
 
     return (
       <div className="App">
-        <div className="container-dark" id="main-logo">
+        <div className="container-dark" >
           <Link to={'about'}>
-            <img src={isocomb} alt="humedal" className="main-logo" style={{filter:'brightness(1)'}}/>
+            <img src={isocomb} alt="humedal" className="main-logo" />
           </Link>
         </div>
         
