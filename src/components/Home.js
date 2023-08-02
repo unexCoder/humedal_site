@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
-// import isocomb from '../logos/isotipo combinado crop.png'
-import isocomb from '../logos/BACK_1.png'
+import isocomb from '../logos/BACK_1.png';
 import { Carousel } from 'react-bootstrap';
 import gallery from '../data/media';
 
