@@ -32,6 +32,12 @@ const Home = () => {
           </Carousel>
         </div>
 
+        <div className="container-green">
+          <div className="grilla">
+            <h2>CARL BERGSTRØM - NIELSEN • UTE VOLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2>
+          </div>
+        </div>    
+
         <div className="container-light">
           <h1><Link to='about'>FESTIVAL HUMEDAL 2023</Link></h1>
           <h4>28___30 SEP | ROSARIO</h4>
