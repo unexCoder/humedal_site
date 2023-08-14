@@ -17,31 +17,36 @@ import consejo from '../logos/consejo.png'
 import { FaBandcamp, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export const About = () => {
-
+  
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+  };
+  
   const {t,i18n} = useTranslation();
 
   return (
     <div className="App">
-        <div className="container-dark">
-            <div className="text-holder">
-            <Link to='/'><h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4></Link>                
-                <p>{t('about_1')}</p> 
-                <p>{t('about_2')}</p> 
-                <p>{t('about_0')}</p> 
-                {/* <p>Festival Humedal 2019</p>
-                <p>Festival Humedal 2021</p> */}
-            </div>
-            
-            <div className='social'>
-              <a href="https://festivalhumedal.bandcamp.com/" target="_blank" className='socialLink' rel="noreferrer"><FaBandcamp /></a>
-              <a href="https://www.youtube.com/channel/UCZxI_xW8qbjIC2MDY40kfQw" target="_blank" className='socialLink' rel="noreferrer"><FaYoutube /></a>
-              <a href="https://www.instagram.com/festivalhumedal/" target="_blank" className='socialLink' rel="noreferrer">< FaInstagram /></a>
-              <a href="https://www.facebook.com/festivalhumedal/" target="_blank" className='socialLink' rel="noreferrer"><FaFacebook /></a>
-            </div>
-            
-        </div>
-        <div className="container-light2">
-          <a href="#about">
+        <a href="#auspicios">
+          <div className="container-dark">
+              <div className="text-holder">
+                  <h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4>                
+                  <p>{t('about_1')}</p> 
+                  <p>{t('about_2')}</p> 
+                  <p>{t('about_0')}</p> 
+              </div>
+              
+              <div className='social'>
+                <a href="https://festivalhumedal.bandcamp.com/" target="_blank" className='socialLink' rel="noreferrer"><FaBandcamp /></a>
+                <a href="https://www.youtube.com/channel/UCZxI_xW8qbjIC2MDY40kfQw" target="_blank" className='socialLink' rel="noreferrer"><FaYoutube /></a>
+                <a href="https://www.instagram.com/festivalhumedal/" target="_blank" className='socialLink' rel="noreferrer">< FaInstagram /></a>
+                <a href="https://www.facebook.com/festivalhumedal/" target="_blank" className='socialLink' rel="noreferrer"><FaFacebook /></a>
+                <a href="https://twitter.com/festivalhumedal" target="_blank" className='socialLink' rel="noreferrer"><FaTwitter /></a>
+              </div>  
+          </div>
+        </a>
+
+        <div className="container-light2" onClick={scrollToTop} id="auspicios">
+          <Link to={'/'}>
             <div className="container-logo">
               <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
               <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
@@ -57,7 +62,7 @@ export const About = () => {
               <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
               <img src={ispm} alt="carlos guastavino" style={{width:'6em'}}/>
             </div>
-          </a>
+          </Link>
         </div>
         
         <div className="container-button">
