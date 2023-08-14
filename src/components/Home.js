@@ -7,15 +7,19 @@ import gallery from '../data/media';
 
 const Home = () => {
 
+    const scrollToTop = () => {
+      window.scrollTo(0, 0)
+    };
+
     const {t,i18n} = useTranslation(); 
 
     return (
       <div className="App">
         <div className="container-dark" >
-          <a href="#carousel"><img src={isocomb} alt="humedal" className="main-logo" /></a>
+          <a href="#festival"><img src={isocomb} alt="humedal" className="main-logo" /></a>
         </div>
         
-        <div id="carousel">
+        <div id="festival">
           <Carousel indicators={false} controls={false} fade={true} interval={2000}>
             {Object.keys(gallery).map((pic) => (
                 <Carousel.Item key={ gallery[pic].key }>
@@ -34,13 +38,13 @@ const Home = () => {
 
         <div className="container-green" id="grilla">
           <div className="grilla">
-            <a href="#date"><h2>CARL BERGSTRØM - NIELSEN • UTE VOLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2></a>
+            <a href="#fecha"><h2>CARL BERGSTRØM - NIELSEN • UTE VOLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2></a>
           </div>
         </div>    
 
         
-          <Link to={'about/#about'}>
-            <div className="container-light" id="date">
+          <Link to={'about'}>
+            <div onClick={scrollToTop} className="container-light" id="fecha">
               <h1>FESTIVAL HUMEDAL 2023</h1>
               <h4>28___30 SEP | ROSARIO</h4>
               <h6>ARGENTINA</h6>        

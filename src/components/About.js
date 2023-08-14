@@ -23,7 +23,7 @@ export const About = () => {
   return (
     <div className="App">
         <div className="container-dark">
-            <div className="text-holder" id="about">
+            <div className="text-holder">
             <Link to='/'><h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4></Link>                
                 <p>{t('about_1')}</p> 
                 <p>{t('about_2')}</p> 
@@ -41,21 +41,23 @@ export const About = () => {
             
         </div>
         <div className="container-light2">
-          <div className="container-logo">
-            <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
-            <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
-            <img src={free} alt="all free ciclo" />
-            <img src={consejo} alt="consejo" style={{width:'6em',filter:'invert(100%)'}}/>
-            <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/>
-            <img src={caja} alt="caja negra" style={{width:'7em'}}/>
-            <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/>
-            <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
-            <img src={musica} alt="musica" />
-            <img src={qubil} alt="el qubil" />
-            <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
-            <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
-            <img src={ispm} alt="carlos guastavino" style={{width:'6em'}}/>
-          </div>
+          <a href="#about">
+            <div className="container-logo">
+              <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
+              <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
+              <img src={free} alt="all free ciclo" />
+              <img src={consejo} alt="consejo" style={{width:'6em',filter:'invert(100%)'}}/>
+              <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/>
+              <img src={caja} alt="caja negra" style={{width:'7em'}}/>
+              <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/>
+              <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
+              <img src={musica} alt="musica" />
+              <img src={qubil} alt="el qubil" />
+              <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
+              <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
+              <img src={ispm} alt="carlos guastavino" style={{width:'6em'}}/>
+            </div>
+          </a>
         </div>
         
         <div className="container-button">
