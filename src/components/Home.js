@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
 import isocomb from '../logos/BACK_1.png';
@@ -38,7 +38,7 @@ const Home = () => {
           </div>
         </div>    
 
-        <a href='about/#about'>
+        <a href='about'>
           <div className="container-light" id="date">
             <h1>FESTIVAL HUMEDAL 2023</h1>
             <h4>28___30 SEP | ROSARIO</h4>
