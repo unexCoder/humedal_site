@@ -24,6 +24,18 @@ h6 {
   color: #282c34;
 }
 
+.container-light2 {
+  background-color: rgb(29,255,136);
+  /* background-color: rgb(219,255,28); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
 .container-green {
   background-color: rgb(25,220,120);
   min-height: 100vh;

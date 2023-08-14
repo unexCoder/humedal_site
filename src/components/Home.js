@@ -12,37 +12,39 @@ const Home = () => {
     return (
       <div className="App">
         <div className="container-dark" >
-          <Link to={'about'}>
-            <img src={isocomb} alt="humedal" className="main-logo" />
-          </Link>
+          <a href="#carousel"><img src={isocomb} alt="humedal" className="main-logo" /></a>
         </div>
         
-        <div>
+        <div id="carousel">
           <Carousel indicators={false} controls={false} fade={true} interval={2000}>
             {Object.keys(gallery).map((pic) => (
                 <Carousel.Item key={ gallery[pic].key }>
-                  <img 
-                        src= { gallery[pic].src }
-                        alt= { gallery[pic].caption } />
-                  <Carousel.Caption className='caption-right' >
-                    <h2>{ t(gallery[pic].caption).toUpperCase() }</h2>
-                  </Carousel.Caption>
+                  <a href="#grilla">
+                    <img 
+                          src= { gallery[pic].src }
+                          alt= { gallery[pic].caption } />
+                    <Carousel.Caption className='caption-right' >
+                      <h2>{ t(gallery[pic].caption).toUpperCase() }</h2>
+                    </Carousel.Caption>
+                  </a>
                 </Carousel.Item>                
             ))}
           </Carousel>
         </div>
 
-        <div className="container-green">
+        <div className="container-green" id="grilla">
           <div className="grilla">
-            <h2>CARL BERGSTRØM - NIELSEN • UTE VOLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2>
+            <a href="#date"><h2>CARL BERGSTRØM - NIELSEN • UTE VOLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2></a>
           </div>
         </div>    
 
-        <div className="container-light">
-          <h1><Link to='about'>FESTIVAL HUMEDAL 2023</Link></h1>
-          <h4>28___30 SEP | ROSARIO</h4>
-          <h6>ARGENTINA</h6>
-        </div>    
+        <a href='about/#about'>
+          <div className="container-light" id="date">
+            <h1>FESTIVAL HUMEDAL 2023</h1>
+            <h4>28___30 SEP | ROSARIO</h4>
+            <h6>ARGENTINA</h6>        
+          </div>    
+        </a>
 
         <div className="container-button">
           {Object.keys(lngs).map((lng) => (

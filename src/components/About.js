@@ -23,7 +23,7 @@ export const About = () => {
   return (
     <div className="App">
         <div className="container-dark">
-            <div className="text-holder">
+            <div className="text-holder" id="about">
             <Link to='/'><h4>FESTIVAL INTERNACIONAL DE IMPROVISACIÓN LIBRE Y ARTES SONORAS</h4></Link>                
                 <p>{t('about_1')}</p> 
                 <p>{t('about_2')}</p> 
@@ -40,7 +40,7 @@ export const About = () => {
             </div>
             
         </div>
-        <div className="container-light">
+        <div className="container-light2">
           <div className="container-logo">
             <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
             <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
