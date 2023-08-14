@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
 import isocomb from '../logos/BACK_1.png';
@@ -38,13 +38,15 @@ const Home = () => {
           </div>
         </div>    
 
-        <a href='about'>
-          <div className="container-light" id="date">
-            <h1>FESTIVAL HUMEDAL 2023</h1>
-            <h4>28___30 SEP | ROSARIO</h4>
-            <h6>ARGENTINA</h6>        
-          </div>    
-        </a>
+        
+          <Link to={'about/#about'}>
+            <div className="container-light" id="date">
+              <h1>FESTIVAL HUMEDAL 2023</h1>
+              <h4>28___30 SEP | ROSARIO</h4>
+              <h6>ARGENTINA</h6>        
+            </div>    
+          </Link>
+        
 
         <div className="container-button">
           {Object.keys(lngs).map((lng) => (
