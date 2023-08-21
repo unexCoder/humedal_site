@@ -38,7 +38,7 @@ const Home = () => {
 
         <div className="container-green" id="grilla">
           <div className="grilla">
-            <a href="#fecha"><h2>CARL BERGSTRØM - NIELSEN • UTE VOLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2></a>
+            <a href="#fecha"><h2>CARL BERGSTRØM - NIELSEN • UTE VÖLKER + ANGELIKA SHERIDAN • FEDERICO ORIO • GUSTAVO GALUPPO • KILLICK HINDS • ANA GONZÁLEZ GAMBOA • ES BAILAR • ERNESTO JODOS + ZYPCE • EL SONIDO DE ROSARIO • RETROSPECTIVA IMPROVISACIÓN DE RAÍZ AFRO</h2></a>
           </div>
         </div>    
 
