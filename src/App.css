@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 h4 {
@@ -15,18 +16,6 @@ h6 {
   /* background-color: #f0d107; */
   /* background-color: rgb(29,255,136); */
   background-color: rgb(219,255,28);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #282c34;
-}
-
-.container-light2 {
-  background-color: rgb(29,255,136);
-  /* background-color: rgb(219,255,28); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -67,6 +56,16 @@ h6 {
   /* color: #f0d107; */
   color: rgb(219,255,28);
 }
+.container-gray {
+  color:rgb(219,255,28);
+  background-color: rgb(19,42,1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
 
 .text-holder {
   margin: 0 4em;
@@ -84,6 +83,7 @@ h6 {
   flex-wrap:wrap;
   align-items: center;
   justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
 .container-logo img {
@@ -158,7 +158,47 @@ button:hover{cursor:pointer;}
   width: 100vw;
 }
 
-@media only screen and (max-width: 768px) {
+.agenda-frame {
+  display: flex;
+  margin: 5% 2%;
+  padding: 0;
+  justify-content: space-around;
+  text-align: left;
+}
+.agenda-frame h2 {
+  font-size: 150%;
+  font-weight: 500;
+}
+.agenda-frame h6 {
+  font-size: 95%;
+  font-weight: 900;
+  margin: 2vh 0 0 0;
+}
+.agenda-frame h3 {
+  font-size: 100%;
+  font-weight: 700;
+  margin: 1vh 0 0 0;
+}
+.agenda-frame h5 {
+  font-size: 80%;
+  font-weight: 600;
+  align-self: flex-start;
+  margin: 1vh 0;
+}
+.agenda-frame p {
+  font-size: 70%;
+  font-weight: 900;
+  margin: 0;
+}
+
+.agenda-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 33vw;
+}
+
+@media only screen and (max-width: 760px) {
   
   /* For mobile phones: */
   body {
@@ -211,7 +251,7 @@ button:hover{cursor:pointer;}
     width: 200vw;
   }
    .main-logo {
-    width:100vw; 
+    width:150vw; 
   }
   
   .grilla {
@@ -221,5 +261,23 @@ button:hover{cursor:pointer;}
   .grilla h2 {
     font-weight: 500;
     font-size: 2em;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .agenda-frame {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 95%;
+    margin: 2vh 5vw
+  }
+  .agenda-col {
+    margin-left:0 ;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 100%;
+    font-size: 1.2em;
   }
 }

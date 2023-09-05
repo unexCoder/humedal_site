@@ -45,7 +45,7 @@ export const About = () => {
           </div>
         </a>
 
-        <div className="container-light2" onClick={scrollToTop} id="auspicios">
+        <div className="container-green" onClick={scrollToTop} id="auspicios">
           <Link to={'/'}>
             <div className="container-logo">
               <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
