@@ -94,7 +94,7 @@ const Home = () => {
                 <h5>Instituto del Profesorado de Música Carlos Guastavino</h5>
                 <h6>16:00 hs</h6>
                 <h3>Federico Orio</h3>
-                <p>Caminata sonora</p>
+                <p>Concierto de campanas</p>
                 <h5>Plaza Sarmiento. (frente a Escuela Normal 1)</h5>
                 <h6>18:00 hs</h6>
                 <h3>El sonido de Rosario</h3>
