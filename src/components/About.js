@@ -54,12 +54,12 @@ export const About = () => {
               <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
               <img src={free} alt="all free ciclo" />
               <img src={consejo} alt="consejo" style={{width:'6em',filter:'invert(100%)'}}/>
-              <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/>
-              <img src={caja} alt="caja negra" style={{width:'7em'}}/>
-              <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/>
+              {/* <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/> */}
+              {/* <img src={caja} alt="caja negra" style={{width:'7em'}}/> */}
+              {/* <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/> */}
               <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
-              <img src={musica} alt="musica" />
-              <img src={qubil} alt="el qubil" />
+              {/* <img src={musica} alt="musica" /> */}
+              {/* <img src={qubil} alt="el qubil" /> */}
               <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
               <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
               <img src={ispm} alt="carlos guastavino" style={{width:'5.5em'}}/>
