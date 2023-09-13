@@ -43,14 +43,14 @@ const Home = () => {
         </div>    
   
         <div className="container-light" id="agenda">
-          <a href="#fecha">            
+          <a href="#talleres">            
             <div className="agenda-frame">
               <div className="agenda-col">
                 <h2>28__SEP</h2>
                 
                 <h6>10:00 hs</h6>
                 <h3>Carl Bergstrøm - Nielsen</h3>
-                <p>Taller de música intuitiva</p>
+                <p>Taller: Música intuitiva</p>
                 <h5>Biblioteca Argentina Dr. Juan Álvarez</h5>                
                 
                 <h6>20:00 hs</h6>
@@ -67,7 +67,7 @@ const Home = () => {
 
                 <h6>10:00 hs</h6>
                 <h3>Carl Bergstrøm - Nielsen</h3>
-                <p>Taller de música intuitiva</p>
+                <p>Taller: Música intuitiva</p>
                 <h5>Biblioteca Argentina Dr. Juan Álvarez</h5>                
                 <h6>18:00 hs</h6>
                 <h3>Poéticas II: Improvisación Libre</h3>
@@ -90,7 +90,7 @@ const Home = () => {
                 <h2>30__SEP</h2>
                 <h6>10:00 hs</h6>
                 <h3>Ute Völker</h3>
-                <p>Taller de improvisación con acordeón</p>
+                <p>Taller: El acordeón en la música experimental</p>
                 <h5>Instituto del Profesorado de Música Carlos Guastavino</h5>
                 <h6>16:00 hs</h6>
                 <h3>Federico Orio</h3>
@@ -114,7 +114,33 @@ const Home = () => {
             </div>
           </a>
         </div>    
-          
+            
+        
+        <div className="container-green" id="talleres">
+          <div className="talleres-container"> 
+            <a href="#fecha">
+              <Carousel indicators={false} controls={false} fade={false} interval={5000}>
+                <Carousel.Item className="taller-item">
+                  <h5>TALLER</h5>   
+                  <h2>Música intuitiva</h2>
+                  <h3>a cargo de <span>Carl Bergstrøm - Nielsen</span></h3>
+                  <p>"La improvisación libre es un excitante proceso creativo y comunicacional. A lo largo de los años, he recopilado ejercicios destinados a presentar esta práctica a otros músicos y a perfeccionarla, ya que siempre hay más que explorar. Algunos ejercicios tratan de cómo se pueden modificar los sonidos, tal vez comparables a los artistas visuales que estudian sus colores y materiales. Otros son grupos dinámicos y se centran en la interacción entre músicos. Otros más profundizan en nuestras capacidades de conciencia e imaginación. Estas dimensiones son igualmente 'básicas' y ofrecen infinitas oportunidades; centrarse en una a la vez puede ayudarnos a profundizar a la hora de improvisar libremente y aprovechar las oportunidades del momento" Carl Bergstrøm-Nielsen</p>
+                  <h4 className="taller-item-date">Jueves 28 y Viernes 29 de septiembre. 10:00 - 14:00 hs</h4>   
+                  <h4>Biblioteca Argentina Dr. Juan Álvarez - (SUM)</h4>    
+                </Carousel.Item>                
+                <Carousel.Item className="taller-item">
+                  <h5>TALLER</h5>   
+                  <h2>El acordeón en la música experimental</h2>
+                  <h3>a cargo de <span>Ute Völker</span></h3>
+                  <p>El taller será un espacio de encuentro con la acordeonista Ute Volker, para compartir experiencias, técnicas y características de la exploración del acordeón, así como la sonoridad del ensamble. Destinado a acordeonistas e interesadxs en el acordeón. (asistir con instrumento)</p>
+                  <h4 className="taller-item-date">Sábado 30 de septiembre. 10:00 - 12:00 hs</h4>   
+                  <h4>I.S.P.M N° 5932 "Carlos Guastavino" - Santa Fe 1429</h4>   
+                </Carousel.Item>                
+              </Carousel>
+            </a>
+          </div>
+        </div>
+
           <Link to={'about'}>
             <div onClick={scrollToTop} className="container-dark" id="fecha">
               <h1>FESTIVAL HUMEDAL 2023</h1>

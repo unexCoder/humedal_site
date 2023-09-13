@@ -46,7 +46,7 @@ h6 {
 
 .container-dark {
   /* background-color: #282c34; */
-  background-color: rgb(2,5,0);;
+  background-color: rgb(2,5,0);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -198,6 +198,37 @@ button:hover{cursor:pointer;}
   width: 33vw;
 }
 
+.taller-item {
+  width: 70vw;
+  text-align: left;
+  padding: 10vh 0;
+}
+.taller-item h2 {
+  font-size: 2.25em;
+  font-weight: 900;
+}
+.taller-item h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 0 0 4vh 0;
+}
+.taller-item h4 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.taller-item h5 {
+  font-size: 1.2em;
+  font-weight: 700;
+  /*  */
+  padding: 2vh 0;
+}
+.taller-item p {
+  font-size: 1.25em;
+}
+.taller-item-date {
+  padding: 1vh 0;
+}
+
 @media only screen and (max-width: 760px) {
   
   /* For mobile phones: */
@@ -263,6 +294,18 @@ button:hover{cursor:pointer;}
     font-size: 2em;
   }
 
+  .talleres-container {
+    padding: 0;
+    margin:0;
+  }
+  .taller-item {
+    padding: 4vh 0;
+    width:90vw;
+  }
+  .taller-item h4 {
+    font-size: 1.05em;
+    font-weight: 900;
+  }
 }
 
 @media only screen and (max-width: 700px) {

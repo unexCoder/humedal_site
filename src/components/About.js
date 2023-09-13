@@ -14,6 +14,8 @@ import ispm from '../logos/ispm.png'
 import flecha from '../logos/flecha.png'
 import rosa from '../logos/rosario.png'
 import consejo from '../logos/consejo.png'
+import caso from '../logos/caso.png'
+import paraphernalia from '../logos/paraphernalia.png'
 import { FaBandcamp, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export const About = () => {
@@ -60,7 +62,9 @@ export const About = () => {
               <img src={qubil} alt="el qubil" />
               <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
               <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
-              <img src={ispm} alt="carlos guastavino" style={{width:'6em'}}/>
+              <img src={ispm} alt="carlos guastavino" style={{width:'5.5em'}}/>
+              <img src={caso} alt="centro de arte sonoro" style={{width:'6em'}}/>
+              <img src={paraphernalia} alt="club de jazz rosario" style={{width:'6em'}}/>
             </div>
           </Link>
         </div>
