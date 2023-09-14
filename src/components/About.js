@@ -2,20 +2,21 @@ import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import lngs from '../data/lngs';
 import elda from '../logos/elda.png'
-import sntf from '../logos/fomento.png'
-import caja from '../logos/caja.png'
+//import sntf from '../logos/fomento.png'
+// import caja from '../logos/caja.png'
 import humedal from '../logos/humedal.png'
-import fumi from '../logos/fhya.png'
+//import fumi from '../logos/fhya.png'
 import free from '../logos/free.png'
 import biblio from '../logos/biblio.png'
-import musica from '../logos/musica.png'
-import qubil from '../logos/qubil.png'
+// import musica from '../logos/musica.png'
+// import qubil from '../logos/qubil.png'
 import ispm from '../logos/ispm.png'
 import flecha from '../logos/flecha.png'
 import rosa from '../logos/rosario.png'
 import consejo from '../logos/consejo.png'
 import caso from '../logos/caso.png'
 import paraphernalia from '../logos/paraphernalia.png'
+import estevez from '../logos/estevez-removebg-preview.png'
 import { FaBandcamp, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export const About = () => {
@@ -65,6 +66,7 @@ export const About = () => {
               <img src={ispm} alt="carlos guastavino" style={{width:'5.5em'}}/>
               <img src={caso} alt="centro de arte sonoro" style={{width:'6em'}}/>
               <img src={paraphernalia} alt="club de jazz rosario" style={{width:'6em'}}/>
+              <img src={estevez} alt="museo estevez" style={{width:'6em'}}/>
             </div>
           </Link>
         </div>
