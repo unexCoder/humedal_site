@@ -19,6 +19,7 @@ import paraphernalia from '../logos/paraphernalia.png'
 import estevez from '../logos/estevez-removebg-preview.png'
 import hum from '../logos/hum.png'
 import lavarden from '../logos/lavarden.png'
+import diputados from '../logos/diputados_y_diputadas-5-removebg-preview.png'
 import { FaBandcamp, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export const About = () => {
@@ -54,23 +55,24 @@ export const About = () => {
           <Link to={'/'}>
             <div className="container-logo">
               <img src={humedal} alt="humedal" style={{filter:'brightness(0)'}}/>
-              <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
               <img src={free} alt="all free ciclo" />
+              <img src={biblio} alt="biblioteca argentina" style={{width:'5em'}}/>            
+              <img src={lavarden} alt="plataforma lavarden" style={{padding:'0 0',width:'8em',filter:'brightness(10%)'}}/>
+              <img src={estevez} alt="museo estevez" style={{width:'8em',padding:'1em'}}/>
+              <img src={ispm} alt="carlos guastavino" style={{width:'8em',padding:'0 1em'}}/>
+              <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
+              <img src={paraphernalia} alt="club de jazz rosario" style={{width:'6em'}}/>
+              <img src={hum} alt="hum salas" style={{padding:'0 0',width:'6em',filter:'invert(100%)'}}/>
+              <img src={caso} alt="centro de arte sonoro" style={{width:'8em',padding:'1em'}}/>
+              <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
               <img src={consejo} alt="consejo" style={{width:'6em',filter:'invert(100%)'}}/>
+              <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
+              <img src={diputados} alt="diputadas y diputados" style={{padding:'0 0',width:'15em'}}/>
               {/* <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/> */}
               {/* <img src={caja} alt="caja negra" style={{width:'7em'}}/> */}
               {/* <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/> */}
-              <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
               {/* <img src={musica} alt="musica" /> */}
               {/* <img src={qubil} alt="el qubil" /> */}
-              <img src={flecha} alt="flechabus" style={{filter:'brightness(0)'}}/>
-              <img src={rosa} alt="rosario" style={{width:'6em',filter:'invert(100%)'}}/>
-              <img src={ispm} alt="carlos guastavino" style={{width:'8em',padding:'0 1em'}}/>
-              <img src={caso} alt="centro de arte sonoro" style={{width:'8em',padding:'1em'}}/>
-              <img src={paraphernalia} alt="club de jazz rosario" style={{width:'6em'}}/>
-              <img src={estevez} alt="museo estevez" style={{width:'8em',padding:'1em'}}/>
-              <img src={hum} alt="hum salas" style={{padding:'0 0',width:'6em',filter:'invert(100%)'}}/>
-              <img src={lavarden} alt="plataforma lavarden" style={{padding:'0 0',width:'8em',filter:'brightness(10%)'}}/>
             </div>
           </Link>
         </div>
