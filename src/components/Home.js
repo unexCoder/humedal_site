@@ -98,8 +98,9 @@ const Home = () => {
                 <h5>Plaza Sarmiento. (frente a Escuela Normal 1)</h5>
                 <h6>18:00 hs</h6>
                 <h3>El sonido de Rosario</h3>
+                <p>Performance participativa</p>
                 <h3>Es Bailar</h3>
-                <p>Concierto</p>
+                <p>Impro escénica multidisciplinaria</p>
                 <h5>Café Vinilo / CEC</h5>
                 <h6>20:00 hs</h6>
                 <h3>Ernesto Jodos + Zypce</h3>
