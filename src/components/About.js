@@ -20,6 +20,9 @@ import estevez from '../logos/estevez-removebg-preview.png'
 import hum from '../logos/hum.png'
 import lavarden from '../logos/lavarden.png'
 import diputados from '../logos/diputados_y_diputadas-5-removebg-preview.png'
+import tsonami from '../logos/tsonami-removebg-preview.png'
+import chercan from '../logos/chercan-removebg-preview.png'
+import are from '../logos/are-removebg-preview.png'
 import { FaBandcamp, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export const About = () => {
@@ -68,6 +71,9 @@ export const About = () => {
               <img src={consejo} alt="consejo" style={{width:'6em',filter:'invert(100%)'}}/>
               <img src={elda} alt="america" style={{width:'6em',padding:'0 1em'}} />
               <img src={diputados} alt="diputadas y diputados" style={{padding:'0 0',width:'15em'}}/>
+              <img src={tsonami} alt="radio tsonami" style={{padding:'0 0',width:'6em',filter:'invert(100%)'}}/>
+              <img src={chercan} alt="chercan radio" style={{padding:'0 0',width:'6em',filter:'invert(100%)'}}/>
+              <img src={are} alt="asociasion de radios experimentales" style={{padding:'0 0',width:'6em',filter:'invert(100%)'}}/>
               {/* <img src={sntf} alt="santa fe cultura" style={{width:'11em',filter:'brightness(0)'}}/> */}
               {/* <img src={caja} alt="caja negra" style={{width:'7em'}}/> */}
               {/* <img src={fumi} alt="facultad de humanidades" style={{width:'8em'}}/> */}

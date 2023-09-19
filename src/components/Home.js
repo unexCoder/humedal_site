@@ -53,7 +53,7 @@ const Home = () => {
                 <p>Taller: Música intuitiva</p>
                 <h5>Biblioteca Argentina Dr. Juan Álvarez</h5>                
                 
-                <h6>20:00 hs</h6>
+                <h6>19:00 hs</h6>
                 <h3>Gustavo Galuppo</h3>
                 <p>Charla: "Diálogos e influencias recíprocas entre las Artes Sonoras y Visuales Experimentales"</p>
           
